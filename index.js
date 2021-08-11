@@ -49,6 +49,12 @@ const sources = [
     'https://unsplash.com/photos/WVNQqAn1BVc/download?force=true&w=1920'
 ]
 
+let count = 0;
 sources.map(async src => {
-    await imageTx(src)
+    count = count + 1;
+
+    const i = count;
+    console.log(`${i}:\tStarted processing\t${src}`);
+    await imageTx(src);
+    console.log(`${i}:\tFinished processing\t${src}`);
 })
