@@ -1,0 +1,23 @@
+{
+  "name": "demo-eleventy-img-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeroby0/demo-eleventy-img-cache.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeroby0/demo-eleventy-img-cache/issues"
+  },
+  "homepage": "https://github.com/zeroby0/demo-eleventy-img-cache#readme",
+  "dependencies": {
+    "@11ty/eleventy-img": "github:zeroby0/eleventy-img#cache"
+  }
+}
