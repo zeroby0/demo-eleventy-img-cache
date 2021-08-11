@@ -1,7 +1,7 @@
 # Demo eleventy-img#cache
 
-https://github.com/11ty/eleventy-img/pull/116
-https://github.com/zeroby0/eleventy-img/tree/cache
+- https://github.com/11ty/eleventy-img/pull/116  
+- https://github.com/zeroby0/eleventy-img/tree/cache
 
 ## Usage
 ```bash
